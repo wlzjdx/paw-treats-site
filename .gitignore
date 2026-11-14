@@ -1,0 +1,24 @@
+# macOS and editor files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local dependencies and caches
+node_modules/
+.cache/
+.tmp/
+.sites-checkout/
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# Deployment packages and temporary exports
+*.tar
+*.tar.gz
+*.tgz
